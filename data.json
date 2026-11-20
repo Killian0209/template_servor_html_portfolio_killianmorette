@@ -1,0 +1,44 @@
+[
+  {
+    "id": "red",
+    "titre": "Projet RED",
+    "image": "/projet1/assets/icone/kotw1.png",
+    "technologies": "golang",
+    "introduction": "Présentation courte de mon projet RED.",
+    "presentation": "pas fait",
+    "fonctionnalites": [
+      "pas fait",
+      "pas fait",
+      "a faire"
+    ],
+    "depot": "https://github.com/Killian0209",
+    "video": ""
+  },
+  {
+    "id": "ballon-sonde",
+    "titre": "Projet Ballon-sonde",
+    "image": "/projet2/assets/icone/ballon.png",
+    "technologies": "arduino",
+    "introduction": "Présentation courte de mon projet ballon-sonde.",
+    "presentation": "pas fait",
+    "fonctionnalites": [
+      "a faire",
+      "a faire",
+      "a faire"
+    ],
+    "depot": "https://github.com/Killian0209",
+    "video": ""
+  },
+  {
+    "id": "projet-professionnel",
+    "titre": "Projet professionnel",
+    "image": "",
+    "introduction": "Présentation de mon projet professionnel.",
+    "presentation": "a faire",
+    "fonctionnalites": [
+      "Objectif professionnel a faire"
+    ],
+    "depot": "https://github.com/Killian0209",
+    "video": ""
+  }
+]--
