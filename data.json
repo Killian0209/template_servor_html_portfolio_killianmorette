@@ -8,11 +8,9 @@
     ],
     "technologies": "golang",
     "introduction": "Présentation courte de mon projet RED.",
-    "presentation": "pas fait",
+    "presentation": "Le projet RED consiste à développer un jeu dans le terminal, que nous avons nommé KOTW (King of the World). Ce projet a été réalisé à l'aide du langage de programmation Go (Golang).",
     "fonctionnalites": [
-      "pas fait",
-      "pas fait",
-      "a faire"
+      "L'objectif était de concevoir un jeu fonctionnel en mettant en pratique nos compétences en développement informatique. Go a été utilisé pour programmer la logique et le fonctionnement général du jeu. Nous avons organisé le programme en plusieurs fonctions afin de séparer les différentes fonctionnalités. Nous avons utilisé des variables, des conditions et des boucles pour gérer les actions et les événements du jeu. La lecture et l'affichage des informations dans le terminal permettent au joueur d'interagir avec le jeu. Nous avons également travaillé sur la gestion des entrées utilisateur pour récupérer les choix des joueurs. Nous avons utilisé des structures de données pour stocker et organiser les informations nécessaires au jeu. La programmation en Go nous a permis de travailler sur la logique algorithmique et la gestion des données. Nous avons structuré notre code pour le rendre plus lisible, organisé et facile à modifier. Nous avons également utilisé le terminal pour lancer le programme et observer son fonctionnement. Plusieurs tests ont été réalisés afin de vérifier les différentes fonctionnalités. Nous avons corrigé les erreurs rencontrées pendant le développement pour améliorer la stabilité du jeu. Ce projet nous a permis de développer nos compétences en programmation Go, en algorithmique et en résolution de problèmes. Le projet RED a donc été une expérience enrichissante, mêlant réflexion, technique et travail de développement."
     ],
     "depot": "https://github.com/Killian0209",
     "video": ""
@@ -26,11 +24,9 @@
     ],
     "technologies": "arduino",
     "introduction": "Présentation courte de mon projet ballon-sonde.",
-    "presentation": "pas fait",
+    "presentation": "Notre projet consiste à concevoir, fabriquer et envoyer un ballon-sonde rempli d’hélium dans la haute atmosphère afin de réaliser différentes mesures scientifiques et de collecter un maximum de données sur notre environnement.",
     "fonctionnalites": [
-      "a faire",
-      "a faire",
-      "a faire"
+        "Le ballon sera équipé d’une nacelle contenant plusieurs capteurs et instruments de mesure permettant d’enregistrer différentes informations tout au long de son ascension. L’objectif est d’étudier les conditions atmosphériques à différentes altitudes, jusqu’à atteindre la stratosphère, située à environ 30 à 35 km d’altitude. Pour gérer les différents capteurs et récupérer les informations, nous avons développé un programme avec Arduino. Ce programme permet de communiquer avec les différents composants électroniques, de récupérer les mesures en temps réel et de les enregistrer afin de pouvoir les exploiter par la suite. Nous avons donc programmé le système pour qu'il puisse fonctionner de manière autonome pendant toute la durée du vol. La nacelle embarquera plusieurs capteurs afin de mesurer différents paramètres comme l’altitude, la température, la pression atmosphérique, l’humidité, la vitesse d’ascension, la position GPS, le rayonnement ultraviolet ou encore la luminosité. Toutes ces informations seront enregistrées pendant le vol afin de pouvoir les récupérer et les analyser après l'expérience. Le fonctionnement du projet se déroulera en plusieurs étapes. Tout d’abord, nous construirons la nacelle et installerons les différents capteurs, une carte Arduino ainsi qu’un système permettant de stocker les données. Ensuite, nous gonflerons le ballon à l’hélium avant de procéder à son lancement. Pendant son ascension, les capteurs effectueront des mesures en continu et le programme Arduino enregistrera les résultats. À très haute altitude, le ballon finira par éclater à cause de la diminution de la pression atmosphérique. La nacelle redescendra alors vers le sol grâce à un parachute, ce qui permettra de récupérer le matériel et les données enregistrées. Ce projet a plusieurs objectifs. Il permettra de découvrir le fonctionnement de l’atmosphère, de comprendre les variations de température et de pression en fonction de l’altitude, mais également d'apprendre à utiliser différents capteurs, des systèmes électroniques et le GPS. Il permettra aussi de développer des compétences en programmation Arduino, en électronique, en conception et en analyse de données. L’objectif final est donc de concevoir un ballon-sonde autonome capable de monter le plus haut possible, de collecter un maximum d’informations et de nous transmettre des données exploitables après sa récupération. Cette expérience nous permettra de réaliser une véritable mission scientifique et de mieux comprendre notre atmosphère grâce à des mesures effectuées directement en altitude."
     ],
     "depot": "https://github.com/Killian0209",
     "video": ""
@@ -40,13 +36,10 @@
     "titre": "Projet professionnel",
     "image": [
       "/static/docs/interpol.png",
-      "/static/docs/cyber.png"
+      "/static/docs/cyber.jpg"
     ],
     "introduction": "Présentation de mon projet professionnel.",
-    "presentation": "a faire",
-    "fonctionnalites": [
-      "Objectif professionnel a faire"
-    ],
+    "presentation": "Mon parcours professionnel a débuté avec deux stages d'observation effectués au sein du siège du Crédit Mutuel, situé à Marseille. Lors de mon année de troisième, j'ai effectué un stage d'une semaine au sein du pôle informatique. Cette première expérience m'a permis de découvrir le fonctionnement d'un service informatique au sein d'une grande entreprise, ainsi que les différentes missions liées à la gestion et à la maintenance des équipements informatiques. Par la suite, durant mon année de seconde, j'ai réalisé un deuxième stage de deux semaines, toujours au siège du Crédit Mutuel à Marseille, mais cette fois-ci au sein du pôle sécurité et gestion technique du bâtiment. J'ai ainsi pu découvrir les missions liées à la sécurité des locaux, à leur entretien et au bon fonctionnement des installations techniques du bâtiment. Ces deux expériences m'ont permis de découvrir différents domaines professionnels, notamment l'informatique, la sécurité et la gestion technique. Elles m'ont également aidé à mieux comprendre le fonctionnement d'une entreprise et à développer ma curiosité pour le monde du travail.",
     "depot": "https://github.com/Killian0209",
     "video": ""
   }
