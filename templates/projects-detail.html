@@ -1,0 +1,20 @@
+{{define "projects-detail"}}
+{{template "header" .Titre}}
+        <article class="detail">
+            {{range .Images}}
+            <img class="cover" src="{{.}}" alt="Illustration du projet {{$.Titre}}">
+            {{end}}
+            <h1>{{.Titre}}</h1>
+            {{if .Technologies}}<p>{{.Technologies}}</p>{{end}}
+            <p>{{.Introduction}}</p>
+            <p>{{.Presentation}}</p>
+            <ul>
+                {{range .Fonctionnalites}}<li>{{.}}</li>{{end}}
+            </ul>
+            {{if .Depot}}<p><a href="{{.Depot}}">Voir le dépôt GitHub</a></p>{{end}}
+            {{if .Video}}<p><a href="{{.Video}}">Voir la vidéo</a></p>{{end}}
+
+            <a class="btn" href="/projects">Retour à la liste des projets</a>
+        </article>
+{{template "footer"}}
+{{end}}

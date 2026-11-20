@@ -12,8 +12,8 @@ import (
 var _temp = template.Must(template.ParseGlob("./templates/*.html"))
 
 type Project struct {
-    Id string   `json:"id"`
-    Titre string   `json:"titre"`
+    Id     string   `json:"id"`
+    Titre  string   `json:"titre"`
     Images []string `json:"images"`
     Technologies string   `json:"technologies"`
     Introduction string   `json:"introduction"`
@@ -91,7 +91,7 @@ func ProjectsHandler(w http.ResponseWriter, r *http.Request) {
 
 	renderTemplate(w, "projects", listProjects)
 }
-
+ 
 func ProjectsByIdHandler(w http.ResponseWriter, r *http.Request) {
     log.Printf("Request : %s %s", r.Method, r.URL.Path)
 
@@ -99,7 +99,7 @@ func ProjectsByIdHandler(w http.ResponseWriter, r *http.Request) {
 
     for _, product := range listProjects {
         if product.Id == id {
-            renderTemplate(w, "project-details", product)
+            renderTemplate(w, "projects-detail", product)
             return
         }
     }

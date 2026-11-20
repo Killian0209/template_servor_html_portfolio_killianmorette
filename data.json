@@ -3,8 +3,8 @@
     "id": "red",
     "titre": "Projet RED",
     "image": [
-      "/assets/docs/kotw1.png",
-      "/assets/docs/kotw2.png"
+      "/static/docs/kotw1.png",
+      "/static/docs/kotw2.png"
     ],
     "technologies": "golang",
     "introduction": "Présentation courte de mon projet RED.",
@@ -21,8 +21,8 @@
     "id": "ballon-sonde",
     "titre": "Projet Ballon-sonde",
     "image": [
-      "/assets/docs/ballon.png",
-      "/assets/docs/boite.png"
+      "/static/docs/ballon.png",
+      "/static/docs/boite.png"
     ],
     "technologies": "arduino",
     "introduction": "Présentation courte de mon projet ballon-sonde.",
@@ -39,8 +39,8 @@
     "id": "projet-professionnel",
     "titre": "Projet professionnel",
     "image": [
-      "/assets/docs/interpol.png",
-      "/assets/docs/cyber.png"
+      "/static/docs/interpol.png",
+      "/static/docs/cyber.png"
     ],
     "introduction": "Présentation de mon projet professionnel.",
     "presentation": "a faire",
