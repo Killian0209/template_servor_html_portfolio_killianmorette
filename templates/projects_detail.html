@@ -1,0 +1,16 @@
+{{define "project-details"}}
+{{template "header" .Name}}
+        <article class="detail">
+            <img class="cover" src="/static/images/projects/{{.Image}}" alt="{{.Name}}">
+            <h1>{{.Titre}}</h1>
+            <p>{{.Technologies}}</p>
+            <p>{{.Introduction}}</p>
+            <p>{{.Presentation}}</p>
+            <p>{{.Fonctionnalites}}</p>
+            <p>{{.Depot}}</p>
+            <p>{{.Video}}</p>
+
+            <a class="btn" href="/products">Retour à la liste des projets</a>
+        </article>
+{{template "footer"}}
+{{end}}

@@ -1,0 +1,14 @@
+{{define "projects_detail"}}
+{{template "header" "Liste des projets"}}
+        <h1>Liste des projets</h1>
+        <ul class="grid">
+            {{range .}}
+            <li class="section">
+                <h2>{{.Titre}}</h2>
+                <span class="proj">{{.Projects}}</span>
+                <a class="btn" href="/projects/{{.Id}}">Consulter le projet</a>
+            </li>
+            {{end}}
+        </ul>
+{{template "footer"}}
+{{end}}

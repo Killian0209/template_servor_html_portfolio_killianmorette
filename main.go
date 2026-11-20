@@ -23,7 +23,7 @@ type Project struct {
     Video           string   `json:"video"`
 }
 
-var listProducts []Project
+var listProjects []Project
 
 func main() {
 
@@ -57,7 +57,7 @@ func loadProjects() error {
     }
     defer file.Close()
 
-    err = json.NewDecoder(file).Decode(&listProducts)
+    err = json.NewDecoder(file).Decode(&listProjects)
     return err
 }
 
@@ -86,7 +86,7 @@ func HomeHandler(w http.ResponseWriter, r *http.Request) {
 func ProjectsHandler(w http.ResponseWriter, r *http.Request) {
 	log.Printf("Request : %s %s", r.Method, r.URL.Path)
 
-	renderTemplate(w, "projects-list", listProducts)
+	renderTemplate(w, "projects", listProjects)
 }
 
 func ProjectsByIdHandler(w http.ResponseWriter, r *http.Request) {
@@ -94,9 +94,9 @@ func ProjectsByIdHandler(w http.ResponseWriter, r *http.Request) {
 
     id := r.PathValue("id")
 
-    for _, product := range listProducts {
+    for _, product := range listProjects {
         if product.Id == id {
-            renderTemplate(w, "projects-details", product)
+            renderTemplate(w, "project-details", product)
             return
         }
     }
