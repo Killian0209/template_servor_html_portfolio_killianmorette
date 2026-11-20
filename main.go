@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"log"
 	"net/http"
-	"text/template"
+	"html/template"
 	"encoding/json"
 	"os"
 )
@@ -41,9 +41,6 @@ func main() {
 
 	fileServer := http.FileServer(http.Dir("./assets"))
 	router.Handle("/static/", http.StripPrefix("/static/", fileServer))
-
-	docsServer := http.FileServer(http.Dir("./docs"))
-	router.Handle("/docs/", http.StripPrefix("/docs/", docsServer))
 
 	err := http.ListenAndServe("localhost:8080", router)
 	if err != nil {
@@ -112,4 +109,3 @@ func NotfoundHandler(w http.ResponseWriter, r *http.Request) {
 
 	renderTemplate(w, "error", nil)
 }
-
