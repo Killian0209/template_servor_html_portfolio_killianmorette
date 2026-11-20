@@ -14,7 +14,7 @@ var _temp = template.Must(template.ParseGlob("./templates/*.html"))
 type Project struct {
     Id     string   `json:"id"`
     Titre  string   `json:"titre"`
-    Images []string `json:"images"`
+    Images []string `json:"image"`
     Technologies string   `json:"technologies"`
     Introduction string   `json:"introduction"`
     Presentation string   `json:"presentation"`

@@ -7,17 +7,24 @@
   <title>{{.}} | Portfolio de Killian</title>
   <link rel="stylesheet" href="/static/css/style.css">
 </head>
-<body>
-<header class="site-header">
-  <a class="brand" href="/">Portfolio</a>
-  <nav><a href="/">Accueil</a><a href="/projects">Mes projets</a></nav>
-</header>
-<main class="container">
-{{end}}
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/">Portfolio</a>
+      <nav><a href="/">Accueil</a><a href="/projects">Mes projets</a></nav>
+    </header>
+    <main class="container">
+    {{end}}
 
-{{define "footer"}}
-</main>
-<footer class="site-footer">© Killian Morette</footer>
-</body>
+    {{define "footer"}}
+    </main>
+    <footer class="site-footer">
+      <p>Mes contacts</p>
+      <p>Mon mail : killianmorette02@gmail.com</p>
+      <a href="https://www.linkedin.com/in/killian-morette-274ba4363" target="_blank">
+          <p>Mon linkedin</p>
+      </a>
+      <p>© Killian Morette</p>
+    </footer>
+  </body>
 </html>
 {{end}}
