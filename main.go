@@ -12,15 +12,15 @@ import (
 var _temp = template.Must(template.ParseGlob("./templates/*.html"))
 
 type Project struct {
-    Id              string   `json:"id"`
-    Titre           string   `json:"titre"`
-    Image           string   `json:"image"`
-    Technologies    string   `json:"technologies"`
-    Introduction    string   `json:"introduction"`
-    Presentation    string   `json:"presentation"`
+    Id string   `json:"id"`
+    Titre string   `json:"titre"`
+    Images []string `json:"images"`
+    Technologies string   `json:"technologies"`
+    Introduction string   `json:"introduction"`
+    Presentation string   `json:"presentation"`
     Fonctionnalites []string `json:"fonctionnalites"`
-    Depot           string   `json:"depot"`
-    Video           string   `json:"video"`
+    Depot string   `json:"depot"`
+    Video string   `json:"video"`
 }
 
 var listProjects []Project
@@ -41,6 +41,9 @@ func main() {
 
 	fileServer := http.FileServer(http.Dir("./assets"))
 	router.Handle("/static/", http.StripPrefix("/static/", fileServer))
+
+	docsServer := http.FileServer(http.Dir("./docs"))
+	router.Handle("/docs/", http.StripPrefix("/docs/", docsServer))
 
 	err := http.ListenAndServe("localhost:8080", router)
 	if err != nil {
